@@ -1,0 +1,9 @@
+APPLICATION_ID: perf
+service_description:
+  name: zuul-service
+  version: 1.0.0
+servicecomb:
+  service:
+    registry:
+      address: http://192.168.88.59:30100
+

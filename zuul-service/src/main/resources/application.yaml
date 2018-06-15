@@ -1,0 +1,15 @@
+zuul:
+  routes:
+    baffle-service: /baffle-service/**
+
+# disable netflix eurkea since it's not used for service discovery
+ribbon:
+  eureka:
+    enabled: false
+
+server:
+  port: 9090
+
+servicecomb:
+  tracing:
+    enabled: false
